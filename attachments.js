@@ -8,7 +8,7 @@
 var utils = require('./utils'),
     mime = require('mime'),
     async = require('async'),
-    fs = require('fs');
+    fs = require('graceful-fs');
 
 
 /**
